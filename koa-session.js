@@ -25,7 +25,7 @@ const CONFIG = {
   httpOnly: true, /** (boolean) httpOnly or not (default true)  能否被document.cookie读取防止跨脚本攻击   Set-Cookie: =[; =]
 [; expires=][; domain=]
 [; path=][; secure][; HttpOnly]*/
-  signed: true, /** (boolean) signed or not (default true) */
+  signed: true, /** (boolean) signed or not (default true)  是否有sign*/
   rolling: false, /** (boolean) Force a session identifier cookie to be set on every response. The expiration is reset to the original maxAge, resetting the expiration countdown. default is false **/
 };
 
